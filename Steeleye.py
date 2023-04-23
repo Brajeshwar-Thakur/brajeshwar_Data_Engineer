@@ -120,8 +120,8 @@ try:
     logging.info("Starting the code to upload output.csv file to S3 bucket")
     bucket_name = 'brajeshwar12018241'
     file_name = 'output.csv'
-    aws_access_key_id = 'AKIAQLH6MERZETYDJ5ED'
-    aws_secret_access_key = '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'
+    aws_access_key_id = ''
+    aws_secret_access_key = ''
     region_name = 'ap-southeast-2'
     s3 = boto3.resource(
                 service_name="s3",
